@@ -403,7 +403,7 @@ function initSmartCalculator() {
       `Please share video swatches, sample kit availability, and booking options. Looking forward to your response!`
     );
 
-    btnOrder.href = `https://wa.me/919811123758?text=${waText}`;
+    btnOrder.href = `https://wa.me/919424443141?text=${waText}`;
   }
 
   // Format selection
@@ -512,12 +512,12 @@ function openCardModal(cardId) {
         </div>
 
         <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-          <a href="https://wa.me/919811123758?text=${waInquiry}" target="_blank" rel="noreferrer" class="btn-maroon-solid" style="padding: 0.8rem 1.6rem;">
+          <a href="https://wa.me/919424443141?text=${waInquiry}" target="_blank" rel="noreferrer" class="btn-maroon-solid" style="padding: 0.8rem 1.6rem;">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"></path></svg>
             Inquire on WhatsApp
           </a>
-          <a href="tel:+919811123758" class="btn-gold-outline" style="padding: 0.8rem 1.4rem;">
-            📞 Call Atelier: +91 9811123758
+          <a href="tel:+919424443141" class="btn-gold-outline" style="padding: 0.8rem 1.4rem;">
+            📞 Call Atelier: +91 9424443141
           </a>
         </div>
       </div>
@@ -556,7 +556,7 @@ function initConsultationForm() {
     if (alertMsg) alertMsg.style.display = 'block';
 
     setTimeout(() => {
-      window.open(`https://wa.me/919811123758?text=${wa}`, '_blank');
+      window.open(`https://wa.me/919424443141?text=${wa}`, '_blank');
       form.reset();
     }, 700);
   });
